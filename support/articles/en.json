@@ -31,6 +31,14 @@
         "title": "What is the fingerprint/touch ID spending limit?",
         "body": "<p>Fingerprint authorization is a convenient shortcut to authorize payments and view your balance in MonaWallet, but it is not a strong security solution. Security experts have proved it is possible to lift fingerprints from a stolen device and use them to trick that device's fingerprint reader into unlocking the device.</p>\n<p>To ensure the majority of your funds are safe in the event your phone is stolen, MonaWallet sets a limit to the amount of money that can be sent with only a fingerprint. If you or anyone else tries to send more than that limit (accumulative), your wallet passcode will be required.</p>\n<p>You can change the limit by choosing Fingerprint Authorization Limit in the MonaWallet settings.</p>"
     },
+    "enable-faceprint-authentication": {
+        "title": "What is faceprint authentication?",
+        "body": "<h2>Face ID on iPhone</h2>\n<p>Face ID is available on iPhone X. If you have it enabled on your device, you can use your faceprint to unlock your MonaWallet and authorize transactions instead of entering your passcode. You will still be required to enter your passcode periodically for increased security.</p>\n<p>If Face ID is not enabled on your device, you can enable it in your device's settings under \"Face ID &amp; Passcode.</p>"
+    },
+    "faceprint-spending-limit": {
+        "title": "What is the faceprint/face ID spending limit?",
+        "body": "<p>Faceprint authorization is a convenient shortcut to authorize payments and view your balance in MonaWallet, but it is not a strong security solution.</p>\n<p>To ensure the majority of your funds are safe in the event your phone is stolen, MonaWallet sets a limit to the amount of money that can be sent with only a faceprint. If you or anyone else tries to send more than that limit (accumulative), your wallet passcode will be required.</p>\n<p>You can change the limit by choosing Faceprint Authorization Limit in the MonaWallet settings.</p>"
+    },
     "paper-key": {
         "title": "Why do I need to write down my paper key?",
         "body": "<p>If you receive a QR code labeled as a \"paper wallet\" or \"Monacoin private key\", you can import it into MonaWallet by choosing \"Import Wallet\" from the MonaWallet menu and following the directions.</p>\n<p>Any funds stored on the paper wallet/private key will be sent into your MonaWallet, and will <strong>not</strong> remain on the paper wallet/private key.</p>\n<p>If you want to import a wallet created with MonaWallet, use the \"Start/Recover Another Wallet\" function instead.</p>"

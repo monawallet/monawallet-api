@@ -1,0 +1,129 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  position: relative;
+}
+
+.fa {
+    color: #fff;
+}
+
+.navbar {
+    height: 100vh
+}
+
+.navbar-menu {
+    background: linear-gradient(90deg,#ff8f8b 2%,#ffce69);
+}
+
+.navbar-item {
+  display: flex;
+}
+
+.navbar, .navbar-menu, .navbar-start, .navbar-end {
+  align-items: stretch;
+  display: flex;
+  padding: 0;
+}
+
+.navbar-menu{
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.navbar-start{
+  justify-content: flex-start;
+  margin-right: auto;
+}
+
+.navbar-center img {
+    height:32px;
+}
+
+.navbar-end{
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.top-div a,h1 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.top-div h1 {
+    font-weight: bold;
+}
+
+.top-div {
+    padding-top: 10px;
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+}
+
+.second-div {
+    position: fixed;
+    top: 62px;
+    width: 100vw;
+    z-index: 100;
+}
+
+.support {
+    font-weight: bold;
+}
+
+.top-div .navbar-start {
+/*    padding-top: 2.5px;*/
+    padding-left: 10px;
+}
+
+.top-div .navbar-end {
+    padding-right: 10px;
+}
+
+.section {
+    padding-top: 9rem;
+}
+
+.main {
+    min-height: calc(100vh - 130px);
+}
+
+.is-small h1{
+    font-weight: bold;
+}
+
+.is-small a{
+    font-size: 16px;
+}
+
+.footer {
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 130px;
+    background-color: #A3463F;
+    color: #d5dae0;
+    text-align: center;
+    position: relative;
+    padding-top: 36px;
+    padding-bottom: 0px;
+}
+
+.footer .columns ul {
+    margin: 0;
+    width: 95vw;
+
+}
+
+.footer .column {
+    padding: 0;
+    margin-top: 1em; 
+}
+
+.main .section .content .title {
+    font-weight: bold;
+}

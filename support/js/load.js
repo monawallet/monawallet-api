@@ -7,7 +7,7 @@ $(function () {
                 function () {
                     let url = $(location).attr('pathname');
                     if (url == "/support/") {
-                        $('#to-support').hide();
+                        $('#to-support').css({opacity : "0"});
                     }
                 }); 
         $("footer").load(footer);

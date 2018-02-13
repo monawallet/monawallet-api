@@ -9,7 +9,6 @@ html,body {
 
 .fa {
     color: #fff;
-    margin: 0 10px;
 }
 
 .navbar {
@@ -123,6 +122,10 @@ html,body {
 .footer .column {
     padding: 0;
     margin-top: 1em; 
+}
+
+.footer .fa {
+    margin: 0 10px;
 }
 
 .main .section .content .title {

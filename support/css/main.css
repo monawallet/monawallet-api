@@ -2,6 +2,7 @@ html,body {
   margin: 0;
   padding: 0;
   font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  color: #000000;
   background-color: #f5f7fa;
   min-height: 100vh;
   position: relative;
